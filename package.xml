@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<package>
+  <name>hector_nav2</name>
+  <version>0.0.0</version>
+  <description>The hector_nav package</description>
+
+   <maintainer email="leon@todo.todo">leon</maintainer>
+
+  <license>TODO</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>roscpp</build_depend>
+  <build_depend>rospy</build_depend>
+  <build_depend>std_msgs</build_depend>
+  <build_depend>message_filters</build_depend>
+  <build_depend>tf</build_depend>
+  <build_depend>pcl_ros</build_depend>
+  <build_depend>dynamic_reconfigure</build_depend>
+  <build_depend>driver_base</build_depend>
+  <build_depend>sensor_msgs</build_depend>
+  <build_depend>nav_msgs</build_depend>
+  <build_depend>octomap</build_depend>
+  <build_depend>octomap_msgs</build_depend>  
+  <build_depend>octomap_ros</build_depend>
+  <build_depend>pcl_conversions</build_depend>
+  <build_depend>libpcl-all-dev</build_depend>
+  <build_depend>image_geometry</build_depend>
+  <build_depend>image_transport</build_depend>
+  <build_depend>visualization_msgs</build_depend>
+  <build_depend>grid_map_ros</build_depend>
+  <build_depend>grid_map_cv</build_depend>
+  <build_depend>grid_map_loader</build_depend>
+  <build_depend>grid_map_msgs</build_depend>
+  <build_depend>grid_map_rviz_plugin</build_depend>
+  <build_depend>grid_map_visualization</build_depend>
+  <build_depend>message_generation</build_depend>
+  <build_depend>message_runtime</build_depend>
+  
+  <run_depend>message_runtime</run_depend>
+  <run_depend>roscpp</run_depend>
+  <run_depend>rospy</run_depend>
+  <run_depend>std_msgs</run_depend>
+  <run_depend>message_filters</run_depend>
+  <run_depend>tf</run_depend>
+  <run_depend>pcl_ros</run_depend>
+  <run_depend>dynamic_reconfigure</run_depend>
+  <run_depend>driver_base</run_depend>
+  <run_depend>sensor_msgs</run_depend>
+  <run_depend>nav_msgs</run_depend>
+  <run_depend>octomap</run_depend>
+  <run_depend>octomap_msgs</run_depend>
+  <run_depend>octomap_ros</run_depend>
+  <run_depend>pcl_conversions</run_depend>
+  <run_depend>libpcl-all</run_depend>
+  <run_depend>image_geometry</run_depend>
+  <run_depend>image_transport</run_depend>
+  <run_depend>visualization_msgs</run_depend>
+  <run_depend>grid_map_ros</run_depend>
+  <run_depend>grid_map_cv</run_depend>
+  <run_depend>grid_map_loader</run_depend>
+  <run_depend>grid_map_msgs</run_depend>
+  <run_depend>grid_map_rviz_plugin</run_depend>
+  <run_depend>grid_map_visualization</run_depend>
+  <!-- The export tag contains other, unspecified, tags -->
+  <export>
+    <!-- Other tools can request additional information be placed here -->
+
+  </export>
+</package>
